@@ -1,0 +1,10 @@
+[
+  {"event_id":"auth-001","timestamp":"2026-10-18T10:00:00Z","event_type":"failed_login","source":"linux-auth","source_ip":"203.0.113.10","username":"admin","host":"lab-01","details":"Invalid password"},
+  {"event_id":"auth-002","timestamp":"2026-10-18T10:00:08Z","event_type":"failed_login","source":"linux-auth","source_ip":"203.0.113.10","username":"deploy","host":"lab-01","details":"Invalid password"},
+  {"event_id":"auth-003","timestamp":"2026-10-18T10:00:16Z","event_type":"failed_login","source":"linux-auth","source_ip":"203.0.113.10","username":"root","host":"lab-01","details":"Invalid password"},
+  {"event_id":"auth-004","timestamp":"2026-10-18T10:01:10Z","event_type":"successful_login","source":"linux-auth","source_ip":"203.0.113.10","username":"deploy","host":"lab-01","details":"Public key authentication"},
+  {"event_id":"audit-005","timestamp":"2026-10-18T10:05:00Z","event_type":"security_log_cleared","source":"windows-security","username":"unknown","host":"workstation-02","details":"Synthetic audit log clear event"},
+  {"event_id":"auth-006","timestamp":"2026-10-18T10:06:00Z","event_type":"invalid_user","source":"linux-auth","source_ip":"198.51.100.20","username":"test","host":"lab-02","details":"Invalid username"},
+  {"event_id":"auth-007","timestamp":"2026-10-18T10:06:05Z","event_type":"invalid_user","source":"linux-auth","source_ip":"198.51.100.20","username":"guest","host":"lab-02","details":"Invalid username"},
+  {"event_id":"auth-008","timestamp":"2026-10-18T10:06:10Z","event_type":"invalid_user","source":"linux-auth","source_ip":"198.51.100.20","username":"oracle","host":"lab-02","details":"Invalid username"}
+]
